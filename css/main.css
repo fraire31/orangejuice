@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Muli', sans-serif;
+}
+
+nav {
+    background-color: orange;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+nav ul li{
+	color: white;
+	margin: 25px;
+	display: inline-block;
+}
+
+nav ul li span{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#home{
+	margin-left: 800px;
+}
+
+.blankspace{
+	height: 75px;
+	background-color:gray;
+}
+
+.searchbox{
+	float: right;
+	margin-right: 50px;
+}
+
+input{
+	height: 5%;
+	width: 90%;
+	border: none;
+	background-color: rgb(217,217,217);
+	padding-left: 10px;
+}
+
+input [type="text"]{
+	color: gray;
+}
+
+.fa-search{
+	color: gray;
+	float:right;
+	position: relative;
+	top: 10px;
+	right: 30px;
+	padding:.337%;
+	background-color: rgb(217,217,217);
+}
+
+section img {
+	display: inline-block;
+	margin: 100px;
+	width:30%;
+}
+
+.text{
+	display: inline-block;
+	color: orange;
+	font-size: 35px;
+	word-spacing: 15px;
+	line-height: 55px;
+	width: 600px;
+	position: relative;
+	bottom: 150;
+	left:60;
+}
+
+.web{
+	color: rgb(30,163,162);
+}
+
+#orange{
+	font-weight: bold;
+}
+
+button{
+	background-color: rgb(30,163,162);
+	width: 30%;
+	height: 8%;
+	border-color: gray;
+	color: white;
+	margin-top: 20px;
+}
+
+.buttons{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#orangebutton{
+	background-color: orange;
+}
+
+footer{
+	width: 100%;
+	height: 55px;
+	position:absolute;
+	bottom: 0;
+	background-color: rgb(30,163,162);
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+#orangebutton{
+	transition: 1s ease;
+}
+
+#orangebutton:hover {
+	background-color: rgb(30,163,162);
+}
+
+#bluebutton{
+	transition: 1s ease;
+}
+
+#bluebutton:hover{
+	background-color: orange;
+}
+
+
+
